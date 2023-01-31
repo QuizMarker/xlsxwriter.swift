@@ -3,7 +3,7 @@
 //  Created by Daniel Müllenborn on 31.12.20.
 //
 
-import Cxlsxwriter
+import xlsxwriter
 
 /// Struct to represent an Excel chart.
 public struct Chart {

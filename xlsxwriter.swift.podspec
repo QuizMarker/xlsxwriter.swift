@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'damuellen' => 'damuellen@aol.com' }
   s.source           = { :git => 'https://github.com/damuellen/xlsxwriter.swift.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/xlsxwriter/*'
+  s.dependency "libxlsxwriter", "~> 1.1.5"
 end
